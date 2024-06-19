@@ -68,11 +68,12 @@ furo = "*"
 m2r2 = ">=0.3.2"
 setuptools = "*"
 sphinx = "*"
+sphinx-autodoc-typehints = "*"
 sphinxext-opengraph = "*"
 toml = "*"
-sphinx-autodoc-typehints = "*"
 
 [tool.poetry.group.jupyter.dependencies]
+hvplot = {version = "*", extras = ["geo"]}
 ipykernel = "*"
 matplotlib = "*"
 scipy = "*"
